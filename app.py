@@ -12,7 +12,7 @@ class InferlessPythonModel:
         snapshot_download(
             "meta-llama/Llama-2-7b-chat-hf",
             local_dir="/model",
-            token="<<your_token>>",
+            token="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",
         )
         self.llm = LLM("/model")
     
